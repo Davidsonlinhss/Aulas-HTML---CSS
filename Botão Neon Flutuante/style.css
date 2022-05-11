@@ -12,11 +12,11 @@ body {
   text-decoration: none;
 
   display: inline-block;
-  color: rgb(17, 120, 255);
+  color: rgb(255, 0, 191);
   padding: 16px 64px;
-  border: rgb(17, 120, 255) 8px solid;
+  border: rgb(255, 0, 191) 8px solid;
   border-radius: 16px;
-  box-shadow: inset 0 0 32px 0 rgb(17, 120, 255), 0 0 32px 0 rgb(17, 120, 255);
+  box-shadow: inset 0 0 32px 0 rgb(255, 0, 191), 0 0 32px 0 rgb(255, 0, 191);
   text-shadow: 0 0 2px hsl(0 0% 100% / 0.3), 0 0 32px;
   position: relative;
 }
@@ -28,7 +28,7 @@ body {
   top: 120%;
   left: 0;
 
-  background: rgb(17, 120, 255);
+  background: rgb(255, 0, 191);
 
   width: 100%;
   height: 100%;
@@ -46,9 +46,9 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  box-shadow: 0 0 128px 32px rgb(17, 120, 255);
+  box-shadow: 0 0 128px 32px rgb(255, 0, 191);
   opacity: 0;
-  background-color: rgb(17, 120, 255);
+  background-color: rgb(255, 0, 191);
   z-index: -1;
   transition: opacity 100ms linear;
 }
