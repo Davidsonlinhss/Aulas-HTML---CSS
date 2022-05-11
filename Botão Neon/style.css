@@ -12,12 +12,12 @@ body {
   text-decoration: none;
 
   display: inline-block;
-  color: #f1b;
+  color: rgb(17, 120, 255);
   padding: 16px 64px;
-  border: #f1b 8px solid;
+  border: rgb(17, 120, 255) 8px solid;
   border-radius: 16px;
-  box-shadow: inset 0 0 32px 0 #f1b, 0 0 32px 0 #f1b;
-  text-shadow: 0 0 8px hsl(0 0% 100% / 0.3), 0 0 32px;
+  box-shadow: inset 0 0 32px 0 rgb(17, 120, 255), 0 0 32px 0 rgb(17, 120, 255);
+  text-shadow: 0 0 2px hsl(0 0% 100% / 0.3), 0 0 32px;
   position: relative;
 }
 
@@ -28,7 +28,7 @@ body {
   top: 120%;
   left: 0;
 
-  background: #f1b;
+  background: rgb(17, 120, 255);
 
   width: 100%;
   height: 100%;
@@ -46,9 +46,9 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  box-shadow: 0 0 128px 32px #f1b;
+  box-shadow: 0 0 128px 32px rgb(17, 120, 255);
   opacity: 0;
-  background-color: #f1b;
+  background-color: rgb(17, 120, 255);
   z-index: -1;
   transition: opacity 100ms linear;
 }
@@ -59,6 +59,6 @@ body {
 }
 
 .neon:hover {
-  color: #31202b;
+  color: #ffffff;
   text-shadow: none;
 }

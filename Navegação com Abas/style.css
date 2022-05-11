@@ -1,0 +1,42 @@
+/* Barra de navegação com abas */
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h2{
+  text-align: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 720px;
+}
+
+ul li {
+  float: left;
+  background: url(./arquivos-necessarios-navegacao-abas/aba-direita.png) no-repeat top right;
+}
+
+li a {
+  display: block;
+  padding: 0 2em;
+  line-height: 3em;
+  text-decoration: none;
+  background: url(./arquivos-necessarios-navegacao-abas/aba-esquerda.png) no-repeat top left;
+  color: white;
+}
+
+ul a:hover {
+  color: chocolate;
+}
+
+ul #atual {
+  background: url(./arquivos-necessarios-navegacao-abas/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #atual a {
+  background: url(./arquivos-necessarios-navegacao-abas/aba-esquerda-atual.png) no-repeat top left;
+}
